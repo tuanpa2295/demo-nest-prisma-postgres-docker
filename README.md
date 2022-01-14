@@ -33,7 +33,7 @@ $ npm run start:dev
 # production mode
 $ npm run start:prod
 ```
-
+Go to localhost:3000/api for Swagger 
 
 ## Routing endpoint
 ```bash
