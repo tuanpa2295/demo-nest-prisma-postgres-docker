@@ -35,6 +35,11 @@ $ npm install
 
 ## Running the app
 
+Run docker
+Run ```bash docker-compose up``` to compile and run docker postgres database 
+
+Go to hello-prisma folder run ```bash $ npm install and $ npm run start ``` to run the application
+
 ```bash
 # development
 $ npm run start
@@ -45,6 +50,20 @@ $ npm run start:dev
 # production mode
 $ npm run start:prod
 ```
+
+
+## Routing endpoint
+CREATE localhost:3000/user  		Example: {name: 'TuanPA', role: '4'} 
+GET    localhost:3000/users
+DELETE localhost:3000/user/:id
+UPDATE localhost:3000/user/:id   	Example: {name: 'TuanPA', role: '4'}
+
+CREATE localhost:3000/role  		Example: {title: 'admin'} 
+GET    localhost:3000/roles
+DELETE localhost:3000/role/:id
+UPDATE localhost:3000/role/:id   	Example: {title: 'guest'}
+GET    localhost:3000/filtered-roles/:searchString Example: ocalhost:3000/filtered-roles/admin
+
 
 ## Test
 
